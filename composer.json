@@ -12,7 +12,8 @@
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
-        "mews/captcha": "^3.3"
+        "mews/captcha": "^3.3",
+        "rap2hpoutre/laravel-log-viewer": "^2.4"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

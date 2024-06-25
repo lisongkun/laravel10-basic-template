@@ -160,6 +160,7 @@ return [
          * Package Service Providers...
          */
         \Mews\Captcha\CaptchaServiceProvider::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         /*
          * Application Service Providers...
          */
