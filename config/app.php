@@ -159,7 +159,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        \Mews\Captcha\CaptchaServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -184,7 +184,8 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
         // custom aliases
-        'Response' => \Jiannei\Response\Laravel\Support\Facades\Response::class
+        'Response' => \Jiannei\Response\Laravel\Support\Facades\Response::class,
+        'Captcha' => \Mews\Captcha\Facades\Captcha::class
     ])->toArray(),
 
 ];
