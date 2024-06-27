@@ -17,3 +17,9 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+
+# Laravel-s generate
+storage/laravels.conf
+storage/laravels.pid
+storage/laravels-timer-process.pid
+storage/laravels-custom-processes.pid
