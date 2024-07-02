@@ -188,7 +188,9 @@ return [
         // 'Example' => App\Facades\Example::class,
         // custom aliases
         'Response' => \Jiannei\Response\Laravel\Support\Facades\Response::class,
-        'Captcha' => \Mews\Captcha\Facades\Captcha::class
+        'Captcha' => \Mews\Captcha\Facades\Captcha::class,
+
+        'EasyWeChat' => Overtrue\LaravelWeChat\EasyWeChat::class,
     ])->toArray(),
 
 ];
