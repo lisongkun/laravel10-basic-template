@@ -12,7 +12,7 @@
 // 第二种: admin()
 // 效果等同于`auth('admin')` 获取的是后台用户的 auth
 // 这种方式的表和模型并没有创建,预留了位置供修改
-// 语法糖配置:`app/helper.php`  guard:`config/auth.php`
+// 语法糖配置:`app/helpers.php`  guard:`config/auth.php`
 ```
 
 配置自动加载
