@@ -3,10 +3,12 @@
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Jiannei\Response\Laravel\Support\Traits\ExceptionTrait;
 use Throwable;
 
 class Handler extends ExceptionHandler
 {
+    use ExceptionTrait;
     /**
      * The list of the inputs that are never flashed to the session on validation exceptions.
      *
